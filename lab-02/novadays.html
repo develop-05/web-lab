@@ -5,12 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>novadays</title>
+
+    <style>
+        h1{
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .back{
+            font-style: italic;
+        }
+
+        ul > li{
+            background-color: #fff;
+        }
+
+        ul > li > ul > li:nth-child(1) {
+            background-color: grey;
+        }
+
+        ul > li > ul > li:nth-child(3) {
+            background-color: grey;
+        }
+
+        li > ol {
+            background-color: #fff;
+        }
+
+        .favorite-dessert {
+            text-align: center;   
+        }
+
+        li > ol > li:nth-child(3):hover {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        li > ol > li:nth-child(5):hover {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+
+        li > ol > li:nth-child(4) {
+            color: rgb(116, 165, 213);
+        }
+
+    </style>
+
 </head>
 <body>
 
     <h1>Сьогодення Кнігніцького Дениса Михайловича</h1>
 
-    <a href="index.html">Назад на головну</a>
+    <a class="back" href="index.html">Назад на головну</a>
 
     <h2>Мій типовий список покупок</h2>
 
@@ -47,7 +97,7 @@
             </ul>
         </li>
 
-        <h2>Мій улюблений десерт</h2>
+        <h2 class="favorite-dessert">Мій улюблений десерт</h2>
 
 
 
